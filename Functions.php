@@ -37,8 +37,10 @@
         function returnProduct($nmu1, $num2){
             $prod = $num1 + $num2; 
             return $prod;
-        }
+        } 
 
+        $name = 'Farhan Malik';
+           
         $num = 500;
         addFunction(10, 20);
         addFunction(10, $num);
