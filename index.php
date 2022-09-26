@@ -32,6 +32,7 @@
     ?>
     <button type="button" class="btn btn-dark">CLICK ME!</button>
     <button type="button" class="btn btn-red">PUSH ME!</button>
+    <button type="button" class="btn btn-green">Earn-Me</button>
     <?php 
 
       require 'includes/fotter.php'
