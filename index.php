@@ -31,8 +31,9 @@
        echo "<h2>My Name is: $name <h2/>";
     ?>
     <button type="button" class="btn btn-dark">CLICK ME!</button>
-    <button type="button" class="btn btn-red">PUSH ME!</button>
-    <button type="button" class="btn btn-green">Earn-Me</button>
+    <button type="button" class="btn btn-danger">PUSH ME!</button>
+    <button type="button" class="btn btn-warning">Earn-Me</button>
+    <a href="https://id.heroku.com/login" target="_blank" class="btn btn-info">Heruko.com</a> 
     <?php 
 
       require 'includes/fotter.php'
