@@ -31,6 +31,7 @@
        echo "<h2>My Name is: $name <h2/>";
     ?>
     <button type="button" class="btn btn-dark">CLICK ME!</button>
+    <button type="button" class="btn btn-red">PUSH ME!</button>
     <?php 
 
       require 'includes/fotter.php'
