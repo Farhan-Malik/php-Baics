@@ -1,0 +1,36 @@
+<?php 
+   $title = "ifstatements";
+   include 'include/header.php' 
+
+?>
+
+    <h3 style="color: red"></h3>
+    <?php 
+       // AN if Statement that will carry out an action based on the value of the variable 
+
+       echo '<h2> If Statement<h2/>';
+       // ==, >, <, <= , >=, 
+       $grade = 80;
+       if($grade >= 50){
+           echo '<h3 style="color: green">You HAVE PASSED<h3/>';
+       }
+       else {
+           echo '<h3 style="color: red">You HAVE FAILED<h3>';
+       }    
+       $grade = 'A';
+       // If-Else IF-Else 
+       if($grade == 'A'){
+        echo '<h2 style="color: orange"> YOU ARE A SUPERSTAR </h2>';
+       }
+       elseif ($grade == 'B'){
+        echo '<h2 style="color: green>You Did Well</h2>';
+       }
+       else{
+        echo '<h2 style="color: red">You HAVE Failed......</h2>';
+       }
+    
+    
+    
+    ?>    
+
+<?php require 'includes/fotter.php' ?>
