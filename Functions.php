@@ -39,7 +39,7 @@
             return $prod;
         } 
 
-        $name = 'Farhan Malik';
+        
            
         $num = 500;
         addFunction(10, 20);
